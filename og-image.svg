@@ -1,13 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="ClaimFlow">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0e1116"/>
-      <stop offset="1" stop-color="#26292f"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dc2626"/>
+      <stop offset="1" stop-color="#2563eb"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect x="80" y="80" width="1040" height="470" rx="24" fill="#ffffff" opacity="0.04"/>
-  <text x="120" y="250" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="800" fill="#f8fafc">ClaimFlow</text>
-  <text x="120" y="330" font-family="Inter, system-ui, sans-serif" font-size="34" fill="#cbd5e1">Claims in motion, faster.</text>
-  <text x="120" y="430" font-family="Inter, system-ui, sans-serif" font-size="24" letter-spacing="3" fill="#94a3b8">SAAS</text>
+  <g opacity="0.10" transform="translate(292,315)">
+    <rect x="-204" y="-235" width="1040" height="470" rx="28" fill="none" stroke="#000000" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="88" y="241" width="148" height="148" rx="33" fill="url(#mark)"/>
+    <g transform="translate(125 278) scale(2.3125)">
+      <polygon points="32,7 53,16 53,33 32,57 11,33 11,16" fill="rgb(255, 255, 255)"/><polygon points="32,13 47,20 47,32 32,50 17,32 17,20" fill="rgb(74, 39, 79)"/><polygon points="23,31 29,37 42,23 45,26 29,43 20,34" fill="rgb(255, 255, 255)"/><polygon points="29,7 35,7 33,12 31,12" fill="rgb(255, 255, 255)"/>
+    </g>
+    
+  </g>
+  <text x="292" y="290" font-family="Helvetica Neue, Inter, system-ui, sans-serif"
+        font-size="72" font-weight="800" fill="#000000">ClaimFlow</text>
+  <rect x="292" y="308" width="92" height="5" rx="2.5" fill="#2563eb"/>
+  <text x="292" y="352" font-family="Helvetica Neue, Inter, system-ui, sans-serif"
+        font-size="30" fill="#4b5563">Claims in motion, faster.</text>
 </svg>

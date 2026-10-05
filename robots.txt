@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://claimflow.com/sitemap.xml
+Sitemap: https://malikusmangoraya.github.io/claimflow/sitemap.xml
